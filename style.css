@@ -1,0 +1,54 @@
+.box1{
+		margin:3% 25% 0% 25%;
+		width: 50%;
+	}
+	#button-addon2{
+		background-color: dodgerblue;
+		color: white;
+	}
+    .box2{
+
+    	border:1px solid;
+    	box-shadow:15px 15px 8px grey;
+    	width: 50%;
+    	margin:0% 25%; 
+    	height: 600px;
+    	align-items: center;
+    	background-color:black;
+    	display: none;
+    }
+    #weathercon .fas{
+font-size: 6rem;
+
+animation: fas-anime 2s linear infinite alternate;
+
+}
+
+@keyframes fas-anime {
+
+from {
+
+transform: scale(0.8);
+
+to {
+
+transform: scale(1.50);
+
+}
+
+
+}
+#weathercon { 
+height: 55%;
+ display: flex; 
+justify-content: center; 
+align-items: center;
+font-size: 3em;
+}
+#ani{
+			position: relative;
+            border-radius: 50%;
+			width: 0px;
+			height: 0px;
+			font-size: 0em;
+		}
