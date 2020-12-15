@@ -23,7 +23,7 @@ var dy=new Date();
 	function temp(){
 		var cities=document.getElementById('city').value;
 		xhr=new XMLHttpRequest();
-		xhr.open("GET","http://api.openweathermap.org/data/2.5/weather?q=" + cities + "&appid=4083bee51c67644102036ec9263a1031",true);
+		xhr.open("GET","https://api.openweathermap.org/data/2.5/weather?q=" + cities + "&appid=4083bee51c67644102036ec9263a1031",true);
 		xhr.send();
 		xhr.onload=function(){
 			if(this.status==200 && this.readyState==4){
